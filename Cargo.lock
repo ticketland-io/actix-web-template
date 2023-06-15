@@ -200,6 +200,25 @@ dependencies = [
 ]
 
 [[package]]
+name = "actix-web-api"
+version = "0.1.0"
+dependencies = [
+ "actix-cors",
+ "actix-middleware",
+ "actix-rt",
+ "actix-web",
+ "dotenv",
+ "env_logger",
+ "envconfig",
+ "eyre",
+ "log",
+ "serde",
+ "serde_json",
+ "thiserror",
+ "tokio",
+]
+
+[[package]]
 name = "actix-web-codegen"
 version = "4.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1343,25 +1362,6 @@ checksum = "f51d0c0d83bec45f16480d0ce0058397a69e48fcdc52d1dc8855fb68acbd31a7"
 dependencies = [
  "core-foundation-sys",
  "libc",
-]
-
-[[package]]
-name = "selchain-wallet-api"
-version = "0.1.0"
-dependencies = [
- "actix-cors",
- "actix-middleware",
- "actix-rt",
- "actix-web",
- "dotenv",
- "env_logger",
- "envconfig",
- "eyre",
- "log",
- "serde",
- "serde_json",
- "thiserror",
- "tokio",
 ]
 
 [[package]]

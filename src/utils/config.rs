@@ -8,6 +8,8 @@ pub struct Config {
   pub port: u64,
   #[envconfig(from = "CORS_ORIGIN")]
   pub cors_config: CorsConfig,
+  #[envconfig(from = "FIREBASE_API_KEY")]
+  pub firebase_api_key: Option<String>,
 }
 
 pub struct CorsConfig {
